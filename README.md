@@ -10,4 +10,4 @@ Nous allons dans un premier temps expliquer ce qu’est la classification multil
 
 Notre dataset comporte 25 classes.
 
-![Category](
+![Category](https://github.com/celine29730/Classification-des-CV-avec-NLP/blob/main/image1.png)
