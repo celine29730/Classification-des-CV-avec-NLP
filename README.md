@@ -9,3 +9,5 @@ En règle générale, les grandes entreprises n'ont pas assez de temps pour ouvr
 Nous allons dans un premier temps expliquer ce qu’est la classification multilabels. Elle consiste simplement à dire qu’au lieu d’attribuer une seule classe à une instance donnée, cette instance peut appartenir à plusieurs classes.
 
 Notre dataset comporte 25 classes.
+
+![Category](
