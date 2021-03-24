@@ -11,3 +11,17 @@ Nous allons dans un premier temps expliquer ce qu’est la classification multil
 Notre dataset comporte 25 classes.
 
 ![Category](https://github.com/celine29730/Classification-des-CV-avec-NLP/blob/main/image1.png)
+
+On va tout d'abord Nettoyer les données et prétraiter le texte afin de faciliter l'apprentissage de notre modèle.
+
+On Initialise et on entraîne le modèle en utilisant l’objet "word2vec" du sous-module "models" du module "gensim"
+
+On crée ensuite des Sacs des centroïdes correspondant à la Création de clusters
+Word2Vec crée des clusters de mots sémantiquement liés, une autre approche possible consiste donc à exploiter la similitude des mots au sein d’un cluster
+On récupére par la suite le nombre de clusters obtenu à partir du vocabulaire du modèle Word2Vec
+
+On procède ensuite au fractionnement des données du dataset avec 80% pour l'apprentissage et 20% pour les données de test.
+
+Le modèle choisi est un modèle utilisant le RandomForest qui nous permet d'obtenir de très bons résultats avec une accuracy de 98%.
+
+Le détail de l'étude ainsi que son analyse figurent dans le notebook: 
